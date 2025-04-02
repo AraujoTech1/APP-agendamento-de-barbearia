@@ -21,7 +21,7 @@ O **APP de Agendamento de Barbearia** é um sistema simples e eficiente para per
 - **Teste de depuração:** Analisado com ferramentas nativas do navegador e logs no backend
 - **Teste de funcionamento:** Testado diretamente no navegador em `http://localhost:4200/`
 - **Captura do teste realizado:** 
-![Teste](imagem/img01.png)
+![Teste](https://github.com/AraujoTech1/APP-agendamento-de-barbearia/blob/main/Imagens/img01.png)
 
 ## Tecnologias Utilizadas
 ![Java](https://img.shields.io/badge/Java-000000?style=for-the-badge&logo=java&logoColor=FF4C4C)
