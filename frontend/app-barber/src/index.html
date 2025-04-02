@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App de Agendamento</title>
+    <script>
+        function agendar() {
+            let nome = document.getElementById("nome").value;
+            let data = document.getElementById("data").value;
+            let hora = document.getElementById("hora").value;
+
+            if (nome === "" || data === "" || hora === "") {
+                alert("Por favor, preencha todos os campos!");
+                return;
+            }
+
+            let mensagem = `Agendamento confirmado para ${nome} em ${data} às ${hora}`;
+            document.getElementById("mensagem").innerText = mensagem;
+        }
+    </script>
+</head>
+<body>
+    <h1>Bem-vindo ao App de Agendamento</h1>
+    
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" placeholder="Seu nome"><br><br>
+
+    <label for="data">Escolha uma data:</label>
+    <input type="date" id="data"><br><br>
+
+    <label for="hora">Escolha um horário:</label>
+    <input type="time" id="hora"><br><br>
+
+    <button onclick="agendar()">Agendar</button>
+
+    <h2 id="mensagem" style="color: green; margin-top: 20px;"></h2>
+</body>
+</html>
